@@ -53,17 +53,37 @@ var api = new ParseServer({
                 pfx: __dirname + '/iPhoneP12/com.arata1972.english.thai.dict store.p12',
             bundleId: 'com.arata1972.english.thai.dict',
             production: true
+        },
+           {
+            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseContonese store.p12',
+            bundleId: 'com.satoshogo.SimpleJapaneseContonese',
+            production: true
+        },
+            {
+            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishContonese store.p12',
+            bundleId: 'com.satoshogo.SimpleEnglishContonese',
+            production: true
+        },
+              {
+            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishPashto store.p12',
+            bundleId: 'com.satoshogo.SimpleEnglishPashto',
+            production: true
+        },
+               {
+            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishLatin store.p12',
+            bundleId: 'com.satoshogo.SimpleEnglishLatin',
+            production: true
+        },
+               {
+            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishWelsh store.p12',
+            bundleId: 'com.satoshogo.SimpleEnglishWelsh',
+            production: true
+        },
+               {
+            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
+            bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
+            production: true
         }
-//            {
-//             pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseContonese store.p12',
-//             bundleId: 'com.satoshogo.SimpleJapaneseContonese',
-//             production: true
-//         },
-//             {
-//             pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishContonese store.p12',
-//             bundleId: 'com.satoshogo.SimpleEnglishContonese',
-//             production: true
-//         }
              
        ]
     },
