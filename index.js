@@ -69,11 +69,11 @@ var api = new ParseServer({
             bundleId: 'com.satoshogo.SimpleEnglishPashto',
             production: true
         },
-               {
-            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishLatin store.p12',
-            bundleId: 'com.satoshogo.SimpleEnglishLatin',
-            production: true
-        },
+//                {
+//             pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishLatin store.p12',
+//             bundleId: 'com.satoshogo.SimpleEnglishLatin',
+//             production: true
+//         },
                {
             pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishWelsh store.p12',
             bundleId: 'com.satoshogo.SimpleEnglishWelsh',
