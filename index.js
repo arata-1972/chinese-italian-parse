@@ -51,7 +51,7 @@ var api = new ParseServer({
             production: true
         }, {
             pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.nepali.dict store.p12',
-            bundleId: 'com.arata1972.chinese.nepali.dict'
+            bundleId: 'com.arata1972.chinese.nepali.dict',
             production: true
         }, {
             pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.tagalog.dict store.p12',
