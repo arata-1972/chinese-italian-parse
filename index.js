@@ -28,64 +28,58 @@ var api = new ParseServer({
         //   apiKey: '...'
         // },
         ios: [{
-              pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.indonesian.dict store.p12',
-            bundleId: 'com.arata1972.chinese.indonesian.dict',
-            production: true
-        }, {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.indonesian.dict store.p12',
+                bundleId: 'com.arata1972.chinese.indonesian.dict',
+                production: true
+            }, {
 
-             pfx: __dirname + '/iPhoneP12/com.arata1972.english.french.dict store.p12',
-            bundleId: 'com.arata1972.english.french.dict',
-            production: true
-        }, {
-            pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.english.dict store.p12',
-            bundleId: 'com.arata1972.japanese.english.dict',
-            production: true
-        }, {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.english.french.dict store.p12',
+                bundleId: 'com.arata1972.english.french.dict',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.english.dict store.p12',
+                bundleId: 'com.arata1972.japanese.english.dict',
+                production: true
+            }, {
 
-              pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.thai.dict store.p12',
-            bundleId: 'com.arata1972.japanese.thai.dict',
-            production: true
-        }, {
-              pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.korean.dict store.p12',
-            bundleId: 'com.arata1972.japanese.korean.dict',
-            production: true
-        }, {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.thai.dict store.p12',
+                bundleId: 'com.arata1972.japanese.thai.dict',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.korean.dict store.p12',
+                bundleId: 'com.arata1972.japanese.korean.dict',
+                production: true
+            }, {
                 pfx: __dirname + '/iPhoneP12/com.arata1972.english.thai.dict store.p12',
-            bundleId: 'com.arata1972.english.thai.dict',
-            production: true
-        },
-           {
-            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseContonese store.p12',
-            bundleId: 'com.satoshogo.SimpleJapaneseContonese',
-            production: true
-        },
-            {
-            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishContonese store.p12',
-            bundleId: 'com.satoshogo.SimpleEnglishContonese',
-            production: true
-        },
-              {
-            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishPashto store.p12',
-            bundleId: 'com.satoshogo.SimpleEnglishPashto',
-            production: true
-        },
-//                {
-//             pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishLatin store.p12',
-//             bundleId: 'com.satoshogo.SimpleEnglishLatin',
-//             production: true
-//         },
-               {
-            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishWelsh store.p12',
-            bundleId: 'com.satoshogo.SimpleEnglishWelsh',
-            production: true
-        },
-               {
-            pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
-            bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
-            production: true
-        }
-             
-       ]
+                bundleId: 'com.arata1972.english.thai.dict',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseContonese store.p12',
+                bundleId: 'com.satoshogo.SimpleJapaneseContonese',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishContonese store.p12',
+                bundleId: 'com.satoshogo.SimpleEnglishContonese',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishPashto store.p12',
+                bundleId: 'com.satoshogo.SimpleEnglishPashto',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishLatin store.p12',
+                bundleId: 'com.satoshogo.SimpleEnglishLatin',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishWelsh store.p12',
+                bundleId: 'com.satoshogo.SimpleEnglishWelsh',
+                production: true
+            }, {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
+                bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
+                production: true
+            }
+
+        ]
     },
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
