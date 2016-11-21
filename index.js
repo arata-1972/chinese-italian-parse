@@ -73,7 +73,13 @@ var api = new ParseServer({
                 pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishWelsh store.p12',
                 bundleId: 'com.satoshogo.SimpleEnglishWelsh',
                 production: true
-            }, {
+            }, 
+              {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.turkish.dict store.p12',
+                bundleId: 'com.arata1972.chinese.turkish.dict',
+                production: true
+            }, 
+              {
                 pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
                 bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
                 production: true
