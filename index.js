@@ -79,6 +79,18 @@ var api = new ParseServer({
                 bundleId: 'com.arata1972.chinese.turkish.dict',
                 production: true
             }, 
+              
+              {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.swedish.dict store.p12',
+                bundleId: 'com.arata1972.japanese.swedish.dict',
+                production: true
+            }, 
+              
+              {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.pt.dict store.p12',
+                bundleId: 'com.arata1972.japanese.pt.dict',
+                production: true
+            }, 
               {
                 pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
                 bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
