@@ -92,6 +92,11 @@ var api = new ParseServer({
                 production: true
             }, 
               {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.turkish.dict store.p12',
+                bundleId: 'com.arata1972.japanese.turkish.dict',
+                production: true
+            }, 
+              {
                 pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
                 bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
                 production: true
