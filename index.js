@@ -116,6 +116,11 @@ var api = new ParseServer({
                 bundleId: 'com.arata1972.arabic.indonesian.dict',
                 production: true
             }, 
+               {
+                pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.malay.dict store.p12',
+                bundleId: 'com.arata1972.chinese.malay.dict',
+                production: true
+            }, 
               {
                 pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
                 bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
