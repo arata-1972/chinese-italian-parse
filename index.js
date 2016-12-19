@@ -127,6 +127,16 @@ var api = new ParseServer({
                 production: true
             }, 
               {
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapanesePunjabi store.p12',
+                bundleId: 'acom.satoshogo.SimpleJapanesePunjabi',
+                production: true
+            }, 
+              {//com.satoshogo.SimpleJapaneseKurdish
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseKurdish store.p12',
+                bundleId: 'acom.satoshogo.SimpleJapaneseKurdish',
+                production: true
+            }, 
+             {
                 pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
                 bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
                 production: true
