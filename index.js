@@ -28,137 +28,18 @@ var api = new ParseServer({
         //   apiKey: '...'
         // },
         ios: [{
-                pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.indonesian.dict store.p12',
-                bundleId: 'com.arata1972.chinese.indonesian.dict',
-                production: true
-            }, {
-
-                pfx: __dirname + '/iPhoneP12/com.arata1972.english.french.dict store.p12',
-                bundleId: 'com.arata1972.english.french.dict',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.english.dict store.p12',
-                bundleId: 'com.arata1972.japanese.english.dict',
-                production: true
-            }, {
-
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.thai.dict store.p12',
-                bundleId: 'com.arata1972.japanese.thai.dict',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.korean.dict store.p12',
-                bundleId: 'com.arata1972.japanese.korean.dict',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.english.thai.dict store.p12',
-                bundleId: 'com.arata1972.english.thai.dict',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseContonese store.p12',
-                bundleId: 'com.satoshogo.SimpleJapaneseContonese',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishContonese store.p12',
-                bundleId: 'com.satoshogo.SimpleEnglishContonese',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishPashto store.p12',
-                bundleId: 'com.satoshogo.SimpleEnglishPashto',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishLatin store.p12',
-                bundleId: 'com.satoshogo.SimpleEnglishLatin',
-                production: true
-            }, {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishWelsh store.p12',
-                bundleId: 'com.satoshogo.SimpleEnglishWelsh',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishMongolian store.p12',
+                bundleId: 'com.satoshogoEnglishMongolian',
                 production: true
             }, 
               {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.turkish.dict store.p12',
-                bundleId: 'com.arata1972.chinese.turkish.dict',
-                production: true
-            }, 
-              
-              {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.swedish.dict store.p12',
-                bundleId: 'com.arata1972.japanese.swedish.dict',
-                production: true
-            }, 
-              
-              {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.pt.dict store.p12',
-                bundleId: 'com.arata1972.japanese.pt.dict',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.turkish.dict store.p12',
-                bundleId: 'com.arata1972.japanese.turkish.dict',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.persian.dict store.p12',
-                bundleId: 'com.arata1972.japanese.persian.dict',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.japanese.arabic.dict store.p12',
-                bundleId: 'com.arata1972.japanese.arabic.dict',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.arabic.spanish.dict store.p12',
-                bundleId: 'com.arata1972.arabic.spanish.dict',
-                production: true
-            }, 
-               {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.arabic.indonesian.dict store.p12',
-                bundleId: 'com.arata1972.arabic.indonesian.dict',
-                production: true
-            }, 
-               {
-                pfx: __dirname + '/iPhoneP12/com.arata1972.chinese.malay.dict store.p12',
-                bundleId: 'com.arata1972.chinese.malay.dict',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/acom.satoshogo.SimpleJapaneseSamoli store.p12',
-                bundleId: 'acom.satoshogo.SimpleJapaneseSamoli',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapanesePunjabi store.p12',
-                bundleId: 'acom.satoshogo.SimpleJapanesePunjabi',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseKurdish store.p12',
-                bundleId: 'acom.satoshogo.SimpleJapaneseKurdish',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseBengali store.p12',
-                bundleId: 'acom.satoshogo.SimpleJapaneseBengali',
-                production: true
-            }, 
-              {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseWelsh store.p12',
-                bundleId: 'acom.satoshogo.SimpleJapaneseWelsh',
-                production: true
-            }, 
-              {//com.satoshogo.SimpleEnglishKanji
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleJapaneseTamil store.p12',
-                bundleId: 'acom.satoshogo.SimpleJapaneseTamil',
-                production: true
-            }, 
-              {//com.satoshogo.SimpleEnglishKanji
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishKanji store.p12',
-                bundleId: 'acom.satoshogo.SimpleEnglishKanji',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
+                bundleId: 'com.satoshogoEnglishTgaog',
                 production: true
             }, 
              {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.SimpleEnglishScottishGaelic store.p12',
-                bundleId: 'com.satoshogo.SimpleEnglishScottishGaelic',
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.EnglishTagalog.remake store.p12',
+                bundleId: 'com.satoshogo.EnglishTagalog.remake',
                 production: true
             }
 
