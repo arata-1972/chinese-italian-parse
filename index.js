@@ -42,7 +42,6 @@ var api = new ParseServer({
                 bundleId: 'com.satoshogo.EnglishTagalog.remake',
                 production: true
             }
-
         ]
     },
 });
