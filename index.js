@@ -28,18 +28,18 @@ var api = new ParseServer({
         //   apiKey: '...'
         // },
         ios: [{
-                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishMongolian store.p12',
-                bundleId: 'com.satoshogoEnglishMongolian',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoCineseItaly store.p12',
+                bundleId: 'com.satoshogoCineseItaly',
                 production: true
             }, 
               {
-                pfx: __dirname + '/iPhoneP12/com.satoshogoEnglishTgaog store.p12',
-                bundleId: 'com.satoshogoEnglishTgaog',
+                pfx: __dirname + '/iPhoneP12/com.satoshogoChineseItalianEnglish store.p12',
+                bundleId: 'com.satoshogoChineseItalianEnglish',
                 production: true
             }, 
              {
-                pfx: __dirname + '/iPhoneP12/com.satoshogo.EnglishTagalog.remake store.p12',
-                bundleId: 'com.satoshogo.EnglishTagalog.remake',
+                pfx: __dirname + '/iPhoneP12/com.satoshogo.ChineseItalian.remake store.p12',
+                bundleId: 'com.satoshogo.ChineseItalian.remake',
                 production: true
             }
         ]
